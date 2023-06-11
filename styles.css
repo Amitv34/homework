@@ -1,0 +1,37 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.details-form {
+    font-size: 14px;
+    padding: 10px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: #e1e1e1;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    margin: auto;
+}
+
+.details-form fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.details-form .details-row {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.details-form .details-input {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
